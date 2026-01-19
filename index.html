@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ixpTechnology - Next-Gen Enterprise Solutions</title>
+    <link rel="icon" type="image/png" href="images/faviconsquare.png" sizes="512x512">
+    
+    <!-- Google Fonts - Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS - Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Gradient Orbs -->
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo" onclick="scrollToTop(event)">
+                <img src="images/ixptech.png" alt="ixpTechnology" class="logo-img">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="nav-cta">Get Started</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Enterprise Technology Solutions
+                </div>
+                <h1 class="hero-title">
+                    Transform Your Business With
+                    <span class="gradient-text animated-gradient">Intelligent Integration</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Empowering enterprises with cutting-edge technology solutions across 
+                    mergers & acquisitions, asset management, and IT services.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">
+                        <span>Explore Services</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="#contact" class="btn btn-glass">
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1200">
+                <div class="floating-cards">
+                    <div class="float-card card-1">
+                        <div class="card-icon">
+                            <img src="images/icon-velocity.svg" alt="Analytics" style="width: 24px; height: 24px;">
+                        </div>
+                        <span>Real-time Analytics</span>
+                    </div>
+                    <div class="float-card card-2">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                        </div>
+                        <span>Seamless Integration</span>
+                    </div>
+                    <div class="float-card card-3">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        </div>
+                        <span>Rapid Delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">Solutions That <span class="gradient-text">Drive Results</span></h2>
+                <p class="section-subtitle">Comprehensive technology solutions tailored to your enterprise needs</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- integrateMNA - M&A -->
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="100" onclick="location.href='mergers-acquisitions.html'">
+                    <div class="card-glow"></div>
+                    <div class="service-header">
+                        <div class="service-logo">
+                            <img src="images/imnaLogo.png" alt="integrateMNA" style="height: 50px; max-width: 200px; width: auto;">
+                        </div>
+                        <span class="service-badge">Featured Product</span>
+                    </div>
+                    <h3 class="service-title">Mergers & Acquisitions</h3>
+                    <p class="service-description">
+                        A sophisticated management platform purpose-built to execute M&A with confidence, 
+                        efficiency, and control. Track thousands of tasks, ensure compliance, and deliver 
+                        transparency at every stage.
+                    </p>
+                    <ul class="service-features">
+                        <li><span class="check-icon">✓</span> Complete M&A Lifecycle</li>
+                        <li><span class="check-icon">✓</span> Real-time Dashboards</li>
+                        <li><span class="check-icon">✓</span> Compliance Built-in</li>
+                    </ul>
+                    <div class="service-cta">
+                        <span>Explore integrateMNA</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </div>
+                </div>
+
+                <!-- Asset Management -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="coming-soon-overlay">
+                        <span>Coming Soon</span>
+                    </div>
+                    <div class="service-logo" style="margin-bottom: 1.5rem;">
+                        <img src="images/iamsLogo.png" alt="integrateAMS" style="height: 55px; max-width: 200px; width: auto;">
+                    </div>
+                    <h3 class="service-title">Asset Management</h3>
+                    <p class="service-description">
+                        Intelligent portfolio management and optimisation tools powered by data analytics. 
+                        Maximise returns while managing risk through sophisticated strategies and real-time insights.
+                    </p>
+                    <ul class="service-features">
+                        <li><span class="check-icon">✓</span> Portfolio Analytics</li>
+                        <li><span class="check-icon">✓</span> Risk Assessment</li>
+                        <li><span class="check-icon">✓</span> Performance Tracking</li>
+                    </ul>
+                    <div class="service-tags">
+                        <span class="tag">Analytics</span>
+                        <span class="tag">Optimisation</span>
+                    </div>
+                </div>
+
+                <!-- IT Services -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="coming-soon-overlay">
+                        <span>Coming Soon</span>
+                    </div>
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3 class="service-title">IT Services</h3>
+                    <p class="service-description">
+                        End-to-end IT solutions from infrastructure design to cloud migration and cybersecurity. 
+                        Build resilient, scalable systems that drive digital transformation.
+                    </p>
+                    <ul class="service-features">
+                        <li><span class="check-icon">✓</span> Cloud Solutions</li>
+                        <li><span class="check-icon">✓</span> Cybersecurity</li>
+                        <li><span class="check-icon">✓</span> DevOps & Automation</li>
+                    </ul>
+                    <div class="service-tags">
+                        <span class="tag">Infrastructure</span>
+                        <span class="tag">Security</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Features Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content" data-aos="fade-right">
+                    <span class="section-tag">Why Choose Us</span>
+                    <h2 class="section-title">Built for <span class="gradient-text">Enterprise Scale</span></h2>
+                    <p class="about-description">
+                        We combine deep industry expertise with cutting-edge technology to deliver solutions 
+                        that drive real business value. Our team of experts brings decades of experience across 
+                        mergers & acquisitions, technology, and regulatory compliance.
+                    </p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="feature-icon">
+                                <img src="images/icon-expertise.svg" alt="Expertise" style="width: 32px; height: 32px;">
+                            </div>
+                            <div class="feature-text">
+                                <h4>Industry-Leading Expertise</h4>
+                                <p>Deep knowledge across technology, compliance and enterprise solutions</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="feature-icon">
+                                <img src="images/faster-release.svg" alt="Faster Release" style="width: 32px; height: 32px;">
+                            </div>
+                            <div class="feature-text">
+                                <h4>Faster Release Cycles</h4>
+                                <p>Extensive use of modern AI tools to deliver requirements 2-3x faster</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="feature-icon">
+                                <img src="images/icon-custom.svg" alt="Tailored Solutions" style="width: 32px; height: 32px;">
+                            </div>
+                            <div class="feature-text">
+                                <h4>Tailored Solutions</h4>
+                                <p>Custom configurations to match your unique needs</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="feature-icon">
+                                <img src="images/icon-support.svg" alt="Support" style="width: 32px; height: 32px;">
+                            </div>
+                            <div class="feature-text">
+                                <h4>24/7 Dedicated Support</h4>
+                                <p>Round-the-clock expert assistance when you need it</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="visual-container">
+                        <div class="visual-card glass-card">
+                            <div class="visual-stat">
+                                <span class="big-number">AI-Powered</span>
+                                <span>Engineering</span>
+                            </div>
+                        </div>
+                        <div class="visual-card glass-card delay-1">
+                            <div class="visual-stat">
+                                <span class="big-number">99.9%</span>
+                                <span>Uptime SLA</span>
+                            </div>
+                        </div>
+                        <div class="visual-card glass-card delay-2">
+                            <div class="visual-stat">
+                                <span class="big-number">24/7</span>
+                                <span>Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Ready to <span class="gradient-text">Get Started?</span></h2>
+                    <p class="contact-description">
+                        Let's discuss how we can help transform your business with our enterprise solutions.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:contact@ixptechnology.com" class="contact-method">
+                            <div class="method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">Email Us</span>
+                                <span class="method-value">contact@ixptechnology.com</span>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="trust-badges">
+                        <span>Or fill below form and we'll get back to you within 24 hours</span>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form glass-card" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="company" placeholder="Company" required>
+                                <span class="input-highlight"></span>
+                            </div>
+                            <div class="form-group">
+                                <select name="service" required>
+                                    <option value="" disabled selected hidden>Select Service</option>
+                                    <option value="ma">Mergers & Acquisitions</option>
+                                    <option value="asset">Asset Management</option>
+                                    <option value="it">IT Services</option>
+                                </select>
+                                <span class="input-highlight"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                    
+                    <div class="form-success glass-card" id="formSuccess" style="display: none;">
+                        <div class="success-animation">
+                            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                                <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                            </svg>
+                        </div>
+                        <h3>Message Sent!</h3>
+                        <p>We'll get back to you within 24 hours.</p>
+                        <button class="btn btn-glass" onclick="resetForm()">Send Another</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="images/ixptech.png" alt="ixpTechnology" class="logo-img">
+                    </a>
+                    <p>Transforming businesses through intelligent integration</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="mergers-acquisitions.html">integrateMNA</a></li>
+                            <li><a href="#services">Asset Management</a></li>
+                            <li><a href="#services">IT Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ixpTechnology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

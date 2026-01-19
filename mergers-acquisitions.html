@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>integrateMNA - M&A Management Platform | ixpTechnology</title>
+    <link rel="icon" type="image/svg+xml" href="images/LogoInBlackCircleFavicon.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ma-styles.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Gradient Orbs -->
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo" onclick="scrollToTop(event)">
+                <img src="images/ixptech.png" alt="ixpTechnology" class="logo-img">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact" class="nav-cta">Get Started</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="ma-hero">
+        <div class="container">
+            <div class="breadcrumb" data-aos="fade-down">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>integrateMNA</span>
+            </div>
+            
+            <div class="hero-content" data-aos="fade-up">
+                <div class="product-logo">
+                    <img src="images/imnaLogo.png" alt="integrateMNA" style="height: 75px; max-width: 250px; width: auto;">
+                </div>
+                <h1 class="hero-title">
+                    M&A Management
+                    <span class="gradient-text animated-gradient">Reimagined</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Execute mergers and acquisitions with confidence, efficiency, and control. 
+                    A sophisticated platform built by M&A experts for M&A professionals.
+                </p>
+                <div class="hero-buttons">
+                    <a href="index.html#contact" class="btn btn-primary">
+                        <span>Request Demo</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="#features" class="btn btn-glass">
+                        <span>Learn More</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-metrics" data-aos="fade-up" data-aos-delay="200">
+                <div class="metric-card glass-card">
+                    <span class="metric-number">1000s</span>
+                    <span class="metric-label">Tasks Managed</span>
+                </div>
+                <div class="metric-card glass-card">
+                    <span class="metric-number">100%</span>
+                    <span class="metric-label">Audit Ready</span>
+                </div>
+                <div class="metric-card glass-card">
+                    <span class="metric-number">Real-Time</span>
+                    <span class="metric-label">Visibility</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="overview">
+        <div class="container">
+            <div class="overview-content" data-aos="fade-right">
+                <span class="section-tag">About integrateMNA</span>
+                <h2 class="section-title">Built by M&A Experts, <span class="gradient-text">for M&A Professionals</span></h2>
+                <p class="overview-text">
+                    IntegrateMNA is a sophisticated management platform purpose-built to help organisations 
+                    execute mergers and acquisitions with confidence, efficiency, and control. Developed by 
+                    seasoned professionals with deep, hands-on experience in managing complex M&A programmes.
+                </p>
+                <p class="overview-text">
+                    M&A initiatives often require tracking thousands of interdependent tasks across multiple 
+                    workstreams, teams, and functions—frequently relying on spreadsheets, ad-hoc processes, 
+                    and manual coordination. IntegrateMNA simplifies this complexity through a structured, 
+                    intelligent framework.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Platform Capabilities</span>
+                <h2 class="section-title">Complete M&A <span class="gradient-text">Lifecycle Management</span></h2>
+                <p class="section-subtitle">Everything you need to execute successful M&A transactions</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-number">01</div>
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                    </div>
+                    <h3>Comprehensive Task Library</h3>
+                    <p>
+                        Our comprehensive library spans the complete M&A lifecycle—from early due diligence 
+                        to post-close integration—covering all major functional areas with thousands of 
+                        pre-built tasks and workflows.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Due diligence workstreams</li>
+                        <li>Integration planning</li>
+                        <li>Functional area coverage</li>
+                        <li>Best practice templates</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-number">02</div>
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    </div>
+                    <h3>Critical Control Objectives</h3>
+                    <p>
+                        Each task is linked to critical control objectives, ensuring strict compliance 
+                        across security, legal, governance, and regulatory dimensions. Clear validation 
+                        and audit readiness built in.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Security compliance</li>
+                        <li>Legal validation</li>
+                        <li>Governance frameworks</li>
+                        <li>Regulatory adherence</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-number">03</div>
+                    <div class="feature-icon">
+                        <img src="images/icon-custom.svg" alt="Customisable" style="width: 32px; height: 32px;">
+                    </div>
+                    <h3>Flexible & Customisable</h3>
+                    <p>
+                        Select and customise workstreams to align with your deal's scale, complexity, 
+                        and risk profile. Grounded in industry best practices yet adaptable to your 
+                        organisation's methodologies.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Scalable frameworks</li>
+                        <li>Custom workflows</li>
+                        <li>Risk-based approach</li>
+                        <li>Methodology alignment</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-number">04</div>
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                    </div>
+                    <h3>Executive Dashboard</h3>
+                    <p>
+                        Real-time visibility through intuitive charts, heat maps, and timelines—highlighting 
+                        progress, risks, and milestones. Seamlessly integrates with JIRA, ServiceNow, and Confluence.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Real-time dashboards</li>
+                        <li>Visual analytics</li>
+                        <li>Risk heat maps</li>
+                        <li>Enterprise integrations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Why integrateMNA</span>
+                <h2 class="section-title">The <span class="gradient-text">Smarter Way</span> to Manage M&A</h2>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-icon">
+                        <img src="images/icon-expertise.svg" alt="Expertise" style="width: 32px; height: 32px;">
+                    </div>
+                    <h4>Built by Practitioners</h4>
+                    <p>Developed by seasoned professionals with deep, hands-on M&A experience</p>
+                </div>
+                
+                <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <h4>Structured Framework</h4>
+                    <p>Replace spreadsheets with an intelligent framework that drives accountability</p>
+                </div>
+                
+                <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <h4>Compliance Built-In</h4>
+                    <p>Critical control objectives linked to every task for audit readiness</p>
+                </div>
+                
+                <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    </div>
+                    <h4>Real-Time Visibility</h4>
+                    <p>Executive dashboards with charts, heat maps, and timelines</p>
+                </div>
+                
+                <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    </div>
+                    <h4>Enterprise Integration</h4>
+                    <p>Seamlessly connects with JIRA, ServiceNow, and Confluence</p>
+                </div>
+                
+                <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v6m0 6v6m9-9h-6m-6 0H3"></path></svg>
+                    </div>
+                    <h4>Flexible & Scalable</h4>
+                    <p>Customise to your deal's scale, complexity, and risk profile</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content glass-card" data-aos="fade-up">
+                <h2>Ready to Transform Your M&A Execution?</h2>
+                <p>
+                    Discover how integrateMNA can help you deliver your next M&A initiative with 
+                    unmatched transparency, control, and execution excellence.
+                </p>
+                <div class="cta-buttons">
+                    <a href="index.html#contact" class="btn btn-primary">
+                        <span>Request a Demo</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="index.html" class="btn btn-glass">
+                        <span>Back to Home</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="images/ixptech.png" alt="ixpTechnology" class="logo-img">
+                    </a>
+                    <p>Transforming businesses through intelligent integration</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="mergers-acquisitions.html">integrateMNA</a></li>
+                            <li><a href="index.html#services">Asset Management</a></li>
+                            <li><a href="index.html#services">IT Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ixpTechnology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
