@@ -34,6 +34,7 @@
             <ul class="nav-links" id="navLinks">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#specialists">Consultants</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact" class="nav-cta">Get Started</a></li>
             </ul>
@@ -60,6 +61,7 @@
                 <p class="hero-subtitle">
                     Empowering enterprises with cutting-edge technology solutions across 
                     mergers & acquisitions, asset management, and IT services.
+                    We provide specialist consultants for any technical needs.
                 </p>
                 <div class="hero-buttons">
                     <a href="#services" class="btn btn-primary">
@@ -162,29 +164,103 @@
                     </div>
                 </div>
 
-                <!-- IT Services -->
-                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
-                    <div class="coming-soon-overlay">
-                        <span>Coming Soon</span>
+                <!-- Specialist Consultants -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300" onclick="location.href='#specialists'" style="cursor: pointer;">
+                    <div class="card-glow"></div>
+                    <div class="service-header">
+                        <div class="service-icon" style="margin-bottom: 0;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <span class="service-badge">Available Now</span>
                     </div>
-                    <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-                    </div>
-                    <h3 class="service-title">IT Services</h3>
+                    <h3 class="service-title">Specialist Consultants</h3>
                     <p class="service-description">
-                        End-to-end IT solutions from infrastructure design to cloud migration and cybersecurity. 
-                        Build resilient, scalable systems that drive digital transformation.
+                        Experienced engineers in specialist roles, ready to join your teams. From platform 
+                        modernisation to observability and site reliability, we supply the expertise your 
+                        programmes need, when you need it.
                     </p>
                     <ul class="service-features">
-                        <li><span class="check-icon">✓</span> Cloud Solutions</li>
-                        <li><span class="check-icon">✓</span> Cybersecurity</li>
-                        <li><span class="check-icon">✓</span> DevOps & Automation</li>
+                        <li><span class="check-icon">✓</span> Platform Modernisation</li>
+                        <li><span class="check-icon">✓</span> Observability & Monitoring</li>
+                        <li><span class="check-icon">✓</span> Site Reliability Engineering</li>
                     </ul>
-                    <div class="service-tags">
-                        <span class="tag">Infrastructure</span>
-                        <span class="tag">Security</span>
+                    <div class="service-cta">
+                        <span>Explore Specialist Roles</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialist Consultants Section -->
+    <section id="specialists" class="specialists">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Specialist Consultants</span>
+                <h2 class="section-title">Specialist Engineers, <span class="gradient-text">On Demand</span></h2>
+                <p class="section-subtitle">
+                    Your trusted vendor for hard-to-fill technical roles. We place experienced engineers 
+                    into enterprise teams, from a single expert to a complete delivery squad.
+                </p>
+            </div>
+
+            <div class="roles-grid">
+                <div class="role-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Platform Modernisation</h4>
+                    <p>Move legacy estates to cloud-native platforms, containers and Kubernetes, without disrupting the business.</p>
+                </div>
+                <div class="role-card glass-card" data-aos="fade-up" data-aos-delay="150">
+                    <h4>Observability & Monitoring</h4>
+                    <p>Metrics, logs and tracing that give your teams full visibility, with alerting that cuts through the noise.</p>
+                </div>
+                <div class="role-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Site Reliability Engineering</h4>
+                    <p>SLOs, incident response and automation that keep critical services fast, stable and available.</p>
+                </div>
+                <div class="role-card glass-card" data-aos="fade-up" data-aos-delay="250">
+                    <h4>Cloud & DevOps</h4>
+                    <p>Infrastructure as code, CI/CD pipelines and cloud cost control across AWS, Azure and GCP.</p>
+                </div>
+                <div class="role-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <h4>Data & AI Engineering</h4>
+                    <p>Data platforms, pipelines and AI integrations that turn your data into business outcomes.</p>
+                </div>
+                <div class="role-card glass-card" data-aos="fade-up" data-aos-delay="350">
+                    <h4>Security & Compliance</h4>
+                    <p>DevSecOps, cloud security and regulatory controls built into how your platforms are delivered.</p>
+                </div>
+            </div>
+
+            <div class="engagement-models" data-aos="fade-up">
+                <h3 class="engagement-title">Flexible <span class="gradient-text">Engagement Models</span></h3>
+                <div class="engagement-grid">
+                    <div class="engagement-item">
+                        <span class="check-icon">✓</span>
+                        <div>
+                            <h4>Staff Augmentation</h4>
+                            <p>Individual specialists who embed in your existing teams and ways of working.</p>
+                        </div>
+                    </div>
+                    <div class="engagement-item">
+                        <span class="check-icon">✓</span>
+                        <div>
+                            <h4>Dedicated Squads</h4>
+                            <p>Small, self-organising teams that own a workstream end to end.</p>
+                        </div>
+                    </div>
+                    <div class="engagement-item">
+                        <span class="check-icon">✓</span>
+                        <div>
+                            <h4>Outcome-Based Projects</h4>
+                            <p>Fixed-scope delivery with clear milestones, from assessment to handover.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#contact" class="btn btn-primary">
+                    <span>Hire a Specialist</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
             </div>
         </div>
     </section>
@@ -199,7 +275,7 @@
                     <p class="about-description">
                         We combine deep industry expertise with cutting-edge technology to deliver solutions 
                         that drive real business value. Our team of experts brings decades of experience across 
-                        mergers & acquisitions, technology, and regulatory compliance.
+                        mergers & acquisitions, platform engineering, site reliability, and regulatory compliance.
                     </p>
                     
                     <div class="features-list">
@@ -316,7 +392,7 @@
                                     <option value="" disabled selected hidden>Select Service</option>
                                     <option value="ma">Mergers & Acquisitions</option>
                                     <option value="asset">Asset Management</option>
-                                    <option value="it">IT Services</option>
+                                    <option value="it">Specialist Consultants</option>
                                 </select>
                                 <span class="input-highlight"></span>
                             </div>
@@ -363,7 +439,7 @@
                         <ul>
                             <li><a href="mergers-acquisitions.html">integrateMNA</a></li>
                             <li><a href="#services">Asset Management</a></li>
-                            <li><a href="#services">IT Services</a></li>
+                            <li><a href="#specialists">Specialist Consultants</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
